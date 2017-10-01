@@ -38,9 +38,9 @@ public class ItemList {
 	public List getItems(){
 		return this.items;
 	}
-	
+	//My commit resolves a SonarQube bug
 	public String[] getArray(){
-		return (String[])this.items.toArray();
+		return (String[])this.items.toArray(new String[0]);
 	}
 	
 	public void split(String s,String sp,List append,boolean isMultiToken){
