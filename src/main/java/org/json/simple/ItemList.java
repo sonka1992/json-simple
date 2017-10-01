@@ -38,7 +38,7 @@ public class ItemList {
 	public List getItems(){
 		return this.items;
 	}
-	
+	//My commit resolves a SonarQube bug
 	public String[] getArray(){
 		return (String[])this.items.toArray(new String[0]);
 	}
